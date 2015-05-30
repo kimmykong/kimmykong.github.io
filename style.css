@@ -1,0 +1,86 @@
+html{
+		height: 100%;
+		background-color: white;
+	}
+
+body{
+		font-family: misoregular;
+		height: 100%;
+		margin: 50px;
+}
+
+.header{
+		height: 120px;
+		width: 100%;
+		text-align: center;
+		background-color: #009EE0;
+}
+
+.name{
+		font-size: 60px;
+		color: white;
+}
+
+.navigation{
+		font-size: 40px;
+		word-spacing: 20px;
+}
+.navigation a:link{
+    color:white;
+}
+.navigation a:visited{
+    color:white;
+}
+
+
+.navigation a:hover{color: #00ED07;}
+
+.navigation a:active{color: #00ED07;}
+
+a:link{
+	text-decoration: none;
+	color: #009EE0;
+}
+
+a:visited{color: #009EE0;}
+a:hover{color: #00ED07;}
+
+
+
+
+
+
+
+
+
+hr{
+	height:4px;
+	/*border: 10;*/
+	color: black;
+	background-color: black;
+}
+
+h1{
+	color:#009EE0;
+
+}
+
+.projects{
+/*	line-height: 0%;
+*/	/*color:#009ee0;*/
+}
+
+.projects h2 {
+	color:#009EE0;
+	line-height: 0%;
+
+}
+
+
+p{
+	font-size: 18px;
+}
+
+.icons{
+	text-align: center;
+	word-spacing: 30px;
