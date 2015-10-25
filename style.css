@@ -21,6 +21,11 @@ h2 {
 	font-size: 25px;
 }
 
+ul{
+	padding: 0px;
+	margin: 0px;
+}
+
 a{text-decoration: none;}
 a:link{color: #2196F3;}
 a:visited{color: #2196F3;}
@@ -54,6 +59,7 @@ a:active{color: #76FF03;}
 	max-width: 100%; 
 	display:block; 
 	height: auto;
+	opacity: 1.0;
 }
 
 .icons{
@@ -64,3 +70,43 @@ a:active{color: #76FF03;}
 .footer p{
 	font-size: 18px;
 }
+
+#expandList ul, li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.mains{
+	color:#2196F3;
+	font-size: 25px;
+	/*background-color:#2196F3;*/
+	padding: 0px;
+}
+
+/*.mains:hover{
+	background: #EEEEEE;
+}*/
+
+/*.title:proj_name{
+	background: #EEEEEE;
+}*/
+
+.project {
+	margin: 0px;
+	padding-left: 25px;
+	/*background-color: #42A5F5;*/
+}
+
+/*.project:hover {
+	background:#E0E0E0;	
+}*/
+.desc {
+	margin: 0px;
+	padding-left: 25px;
+	cursor: auto;
+	color:#000000;	
+}
+
+/*.desc :hover{
+	background: #ffffff;
+}*/
