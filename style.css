@@ -1,0 +1,81 @@
+.mdl-layout__content{
+  margin-top: 50px;
+}
+
+.mdl-layout__title, .mdl-layout-title{
+  font-size: 60px;
+}
+
+.photo > .mdl-card__title {
+  height: 400px;
+  background: url('images/kim-phillip.jpg') center / cover;
+}
+
+.contact.mdl-card{
+margin: auto;
+}
+
+.mdl-grid{
+  width: 75%;
+}
+
+.contact > .mdl-card__supporting-text, .project > .mdl-card__supporting-text{
+  margin: auto;
+  text-align: center;
+}
+
+.mdl-layout__tab{
+  background-color: inherit;
+    opacity: 1;
+}
+
+.stickerWall > .mdl-card__media, #stickerWall > .photo >.mdl-card__media{
+  height: 200px;
+  background: url('images/stickerWall.jpg') center / cover;
+}
+
+.cubeCatch > .mdl-card__media, #cubeCatch > .photo >.mdl-card__media{
+  height: 200px;
+  background: url('images/cubecatch.png') center / cover;
+}
+
+.fireMail > .mdl-card__media, #fireMail > .photo >.mdl-card__media{
+  height: 200px;
+  background: url('images/firemail.jpg') center / cover;
+}
+
+.spacebox > .mdl-card__media, #fireMail > .spacebox >.mdl-card__media{
+  height: 200px;
+  background: url('images/spacebox.jpg') center / cover;
+}
+
+.project > .mdl-card__title-text{
+margin: auto;
+padding-top: 5px;
+}
+
+.project > .mdl-card__supporting-text{
+  padding: 1px;
+    padding-bottom: 10px;
+}
+
+a.fancybox{
+  color: black;
+}
+
+a{
+  text-decoration: none;
+}
+a.fancybox:hover{
+  color: rgb(105,240,174);
+  text-align: center;
+}
+
+.mdl-grid.projectLightbox{
+  width: 95%;
+}
+.material-icons, .mdl-card__supporting-text{ font-size: 18px; }
+
+.project > .mdl-card__supporting-text{
+  font-size: 14px;
+}
