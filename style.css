@@ -1,5 +1,9 @@
+body{
+  background-color: #e8e8e8;
+}
+
 .mdl-layout__content{
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .mdl-layout__title, .mdl-layout-title{
@@ -7,8 +11,18 @@
 }
 
 .photo > .mdl-card__title {
-  height: 400px;
-  background: url('images/kim-phillip.jpg') center / cover;
+  /*width: 267px;*/
+  /*height: auto;*/
+  /*background-size:contain;*/
+  background: url('images/kim-phillip-circle.png') center / cover;
+/*
+  max-width: 267px;
+  max-height: 267px;*/
+  width: 267px;
+  height: 267px;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 10px;
 }
 
 .contact.mdl-card{
@@ -16,7 +30,7 @@ margin: auto;
 }
 
 .mdl-grid{
-  width: 75%;
+  width: 85%;
 }
 
 .contact > .mdl-card__supporting-text, .project > .mdl-card__supporting-text{
@@ -74,8 +88,25 @@ a.fancybox:hover{
 .mdl-grid.projectLightbox{
   width: 95%;
 }
-.material-icons, .mdl-card__supporting-text{ font-size: 18px; }
+.material-icons, .mdl-card__supporting-text{
+  font-size: 18px;
+  line-height: normal;
+ }
 
 .project > .mdl-card__supporting-text{
   font-size: 14px;
+}
+
+.aboutBar{
+  border-bottom: 1px solid rgba(0,0,0,.13);
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.lastElement{
+  border-bottom: none;
+}
+
+.photo.mdl-card{
+  border-left: 2px solid rgba(0,0,0,.13);
 }
