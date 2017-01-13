@@ -58,7 +58,7 @@ margin: auto;
   background: url('images/firemail.jpg') center / cover;
 }
 
-.spacebox > .mdl-card__media, #fireMail > .spacebox >.mdl-card__media{
+.spacebox > .mdl-card__media, #spacebox > .photo >.mdl-card__media{
   height: 200px;
   background: url('images/spacebox.jpg') center / cover;
 }
@@ -109,4 +109,4 @@ a.fancybox:hover{
 
 .photo.mdl-card{
   border-left: 2px solid rgba(0,0,0,.13);
-} 
+}
