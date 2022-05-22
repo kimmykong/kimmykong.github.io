@@ -1,112 +1,36 @@
 body{
   background-color: #e8e8e8;
+  text-align: -webkit-center;
+  text-align: -moz-center;
 }
 
-.mdl-layout__content{
-  margin-top: 40px;
+.mdl-card{
+  width: 75%;
 }
 
-.mdl-layout__title, .mdl-layout-title{
-  font-size: 60px;
+.mdl-card__title{
+    justify-content: center;
+    padding: 16px 0 0 0;
 }
 
-.photo > .mdl-card__title {
-  /*width: 267px;*/
-  /*height: auto;*/
-  /*background-size:contain;*/
-  background: url('images/kim-phillip-circle.png') center / cover;
-/*
-  max-width: 267px;
-  max-height: 267px;*/
-  width: 267px;
-  height: 267px;
-  margin: auto;
-  margin-top: 40px;
-  margin-bottom: 10px;
+.mdl-card__title-text{
+    font-size: 60px;
+    color: rgb(33, 150, 243);
+
 }
 
-.contact.mdl-card{
-margin: auto;
+.mdl-card__supporting-text{
+    width: 100%;
+    padding: 16px 0 16px 0;
+    font-size: 16px;
 }
 
-.mdl-grid{
-  width: 85%;
+.photoDiv{
+  padding-bottom: 16px;;
 }
 
-.contact > .mdl-card__supporting-text, .project > .mdl-card__supporting-text{
-  margin: auto;
-  text-align: center;
-}
-
-.mdl-layout__tab{
-  background-color: inherit;
-    opacity: 1;
-}
-
-.stickerWall > .mdl-card__media, #stickerWall > .photo >.mdl-card__media{
-  height: 200px;
-  background: url('images/stickerWall.jpg') center / cover;
-}
-
-.cubeCatch > .mdl-card__media, #cubeCatch > .photo >.mdl-card__media{
-  height: 200px;
-  background: url('images/cubecatch.png') center / cover;
-}
-
-.fireMail > .mdl-card__media, #fireMail > .photo >.mdl-card__media{
-  height: 200px;
-  background: url('images/firemail.jpg') center / cover;
-}
-
-.spacebox > .mdl-card__media, #spacebox > .photo >.mdl-card__media{
-  height: 200px;
-  background: url('images/spacebox.jpg') center / cover;
-}
-
-.project > .mdl-card__title-text{
-margin: auto;
-padding-top: 5px;
-}
-
-.project > .mdl-card__supporting-text{
-  padding: 1px;
-    padding-bottom: 10px;
-}
-
-a.fancybox{
-  color: black;
-}
-
-a{
-  text-decoration: none;
-}
-a.fancybox:hover{
-  color: rgb(105,240,174);
-  text-align: center;
-}
-
-.mdl-grid.projectLightbox{
-  width: 95%;
-}
-.material-icons, .mdl-card__supporting-text{
-  font-size: 18px;
-  line-height: normal;
- }
-
-.project > .mdl-card__supporting-text{
-  font-size: 14px;
-}
-
-.aboutBar{
-  border-bottom: 1px solid rgba(0,0,0,.13);
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-
-.lastElement{
-  border-bottom: none;
-}
-
-.photo.mdl-card{
-  border-left: 2px solid rgba(0,0,0,.13);
+.photo {
+  background: url('images/kim-phillip-mushroom-circle.png') center / cover;
+  width: 225px;
+  height: 225px;
 }
